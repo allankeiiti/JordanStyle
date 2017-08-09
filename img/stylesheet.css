@@ -1,0 +1,89 @@
+body{
+	/*background-image: url(background.jpg);*/
+	background-color: orange;
+	font-family: Arial;
+}
+
+h1{
+	padding: 0px;
+	font-size: 40px;
+	font-family: Georgia;
+	font-style: italic;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 0 blue, -2px 0 blue, 0 2px blue, 0 -2px blue;
+} 
+h3{
+	padding: 0px;
+	text-align: center;
+	color: white;
+	text-shadow: 2px 0 orange, -2px 0 orange, 0 2px orange, 0 -2px orange;
+	vertical-align: middle;
+
+}
+
+#foto{
+	height:140px;
+	width: 250px;
+}
+
+#banner{
+	background-image: url(capa.jpg);
+	background-repeat: no-repeat;
+	padding: 0px;
+	background-color: #FFFFFF;
+	height: 150px;
+}
+
+#rodape{
+	background-image: url(background.jpg);
+	border: 3px solid blue;
+}
+
+table{
+	display: table;
+	border-collapse: separate;
+	border-spacing: 10px;
+	border-color: gray;
+}
+
+#contid{
+	color:blue;
+	text-shadow: none;
+}
+
+nav a{
+    padding: 12px;
+    background-color: #FF8C00;
+    margin-right: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px #000;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav a:hover{
+	background-color: white;
+	color:black;
+}
+
+#body{
+	padding: 100px;
+	text-align: justify;
+	letter-spacing: 3px;
+	color: #FFFFFF;
+}
+
+p{
+	text-transform: capitalize;
+}
+
+.fotos{
+	height: 400px;
+	width: 20%;
+	margin: auto;
+	padding: 10px;
+	border: 3px solid blue;
+	display: block;
+}
