@@ -29,10 +29,11 @@ h3{
 
 #banner{
 	background-image: url(capa.jpg);
+	background-size: auto;
 	background-repeat: no-repeat;
 	padding: 0px;
 	background-color: #FFFFFF;
-	height: 150px;
+	height: 250px;
 }
 
 #rodape{
@@ -57,7 +58,7 @@ nav a{
     background-color: #FF8C00;
     margin-right: 50px;
     margin-top: 50px;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 2px 2px 6px #000;
     text-decoration: none;
     color: #fff;
@@ -77,6 +78,7 @@ nav a:hover{
 
 p{
 	text-transform: capitalize;
+	text-align: center;
 }
 
 .fotos{
@@ -86,4 +88,12 @@ p{
 	padding: 10px;
 	border: 3px solid blue;
 	display: block;
+}
+
+#slides{
+	width: 615px;
+	height: 317px;
+	margin: 0 auto;
+	overflow: hidden;
+	/*para que mostra só uma imagem de cada vez*/
 }
